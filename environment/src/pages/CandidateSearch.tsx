@@ -1,21 +1,13 @@
 import { useState, useEffect } from 'react';
 import { searchGithub, searchGithubUser } from '../api/API'; 
+import { Candidate } from '../interfaces/Candidate.interface'; // Import the Candidate interface
 
 // const CandidateSearch = () => {
 //   return <h1>CandidateSearch</h1>;
 // };
 
-interface Candidate {
-  login: string;
-  avatar_url: string;
-  html_url: string;
-  company: string | null;
-  location: string | null;
-  email: string | null;
-}
-
 const CandidateSearch = () => {
-  const [candidates, setCandidates] = useState<Candidate: []>([]);
+  const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [currentCandidate, setCurrentCandidate] = useState<Candidate | null>(null);
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
 
