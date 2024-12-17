@@ -9,7 +9,7 @@ import { Candidate } from '../interfaces/Candidate.interface'; // Import the Can
 //   );
 // };
 
-const SavedCandidates = () => {
+const SavedCandidates: React.FC = () => {
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
 
   useEffect(() => {

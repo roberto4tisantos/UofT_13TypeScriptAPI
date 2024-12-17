@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; // Ensure React is imported for JSX
 import { searchGithub, searchGithubUser } from '../api/API'; 
 import { Candidate } from '../interfaces/Candidate.interface'; // Import the Candidate interface
 
@@ -6,7 +6,7 @@ import { Candidate } from '../interfaces/Candidate.interface'; // Import the Can
 //   return <h1>CandidateSearch</h1>;
 // };
 
-const CandidateSearch = () => {
+const CandidateSearch: React.FC = () => {
   const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [currentCandidate, setCurrentCandidate] = useState<Candidate | null>(null);
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
