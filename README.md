@@ -1,3 +1,12 @@
+# Module 13 Challenge - Candidate Search
+
+It is candidate search application that calls the GitHub API and renders data in the browser.
+
+<img width="865" alt="image" src="https://github.com/user-attachments/assets/c1a1eec2-1412-4904-a38b-b113cfde7644" />
+
+<img width="905" alt="image" src="https://github.com/user-attachments/assets/9adbdb0d-035d-47e5-95a0-84cacaee9421" />
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
