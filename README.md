@@ -6,6 +6,13 @@ It is candidate search application that calls the GitHub API and renders data in
 
 <img width="905" alt="image" src="https://github.com/user-attachments/assets/9adbdb0d-035d-47e5-95a0-84cacaee9421" />
 
+# URL of the GitHub repository
+
+https://github.com/roberto4tisantos/UofT_13TypeScriptAPI/
+
+# URL of the functional, deployed application
+
+https://roberto4tisantos.github.io/UofT_13TypeScriptAPI/
 
 # React + TypeScript + Vite
 
