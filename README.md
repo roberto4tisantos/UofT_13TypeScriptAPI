@@ -3,7 +3,6 @@
 It is candidate search application that calls the GitHub API and renders data in the browser.
 <img width="737" alt="image" src="https://github.com/user-attachments/assets/ab939a45-8174-4016-aaef-4c0a09a09767" />
 
-
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/2cc57082-7f80-4e0e-9bc1-be2674e5b494" />
 
 <img width="865" alt="image" src="https://github.com/user-attachments/assets/c1a1eec2-1412-4904-a38b-b113cfde7644" />
