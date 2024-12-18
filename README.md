@@ -5,9 +5,9 @@ It is candidate search application that calls the GitHub API and renders data in
 
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/2cc57082-7f80-4e0e-9bc1-be2674e5b494" />
 
-<img width="865" alt="image" src="https://github.com/user-attachments/assets/c1a1eec2-1412-4904-a38b-b113cfde7644" />
+<img width="873" alt="image" src="https://github.com/user-attachments/assets/ea4a1a71-2c16-4580-bfe3-af5c845a649e" />
 
-<img width="905" alt="image" src="https://github.com/user-attachments/assets/9adbdb0d-035d-47e5-95a0-84cacaee9421" />
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/0fee7a47-6bd4-4dcf-91ef-3bd1fbfdf26e" />
 
 # URL of the GitHub repository
 
