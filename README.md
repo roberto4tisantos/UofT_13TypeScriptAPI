@@ -1,6 +1,9 @@
 # Module 13 Challenge - Candidate Search
 
 It is candidate search application that calls the GitHub API and renders data in the browser.
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/360de763-b605-401f-9a39-3ce2c5d58004" />
+
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/2cc57082-7f80-4e0e-9bc1-be2674e5b494" />
 
 <img width="865" alt="image" src="https://github.com/user-attachments/assets/c1a1eec2-1412-4904-a38b-b113cfde7644" />
 
@@ -9,9 +12,6 @@ It is candidate search application that calls the GitHub API and renders data in
 # URL of the GitHub repository
 
 https://github.com/roberto4tisantos/UofT_13TypeScriptAPI/
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/360de763-b605-401f-9a39-3ce2c5d58004" />
-
-<img width="952" alt="image" src="https://github.com/user-attachments/assets/2cc57082-7f80-4e0e-9bc1-be2674e5b494" />
 
 # URL of the functional, deployed application
 
