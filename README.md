@@ -1,3 +1,24 @@
+# Module 13 Challenge - Candidate Search
+
+It is candidate search application that calls the GitHub API and renders data in the browser.
+<img width="737" alt="image" src="https://github.com/user-attachments/assets/ab939a45-8174-4016-aaef-4c0a09a09767" />
+
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/2cc57082-7f80-4e0e-9bc1-be2674e5b494" />
+
+<img width="873" alt="image" src="https://github.com/user-attachments/assets/ea4a1a71-2c16-4580-bfe3-af5c845a649e" />
+
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/0fee7a47-6bd4-4dcf-91ef-3bd1fbfdf26e" />
+
+# URL of the GitHub repository
+
+https://github.com/roberto4tisantos/UofT_13TypeScriptAPI/
+
+# URL of the functional, deployed application
+
+https://roberto4tisantos.github.io/UofT_13TypeScriptAPI/
+
+https://uoft13typescriptapi.netlify.app/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
