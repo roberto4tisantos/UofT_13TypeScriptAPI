@@ -1,46 +1,63 @@
 import { useState, useEffect } from 'react'; // Ensure React is imported for JSX
-import { searchGithub, searchGithubUser } from '../api/API'; 
+import { searchGithub, searchGithubUser } from '../api/API'; //Import searchGithub, searchGithubUser
 import { Candidate } from '../interfaces/Candidate.interface'; // Import the Candidate interface
 
 // const CandidateSearch = () => {
 //   return <h1>CandidateSearch</h1>;
 // };
 
+//Invoke React.FC
 const CandidateSearch: React.FC = () => {
   const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [currentCandidate, setCurrentCandidate] = useState<Candidate | null>(null);
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
 
+  //Invoke useEffect
   useEffect(() => {
+    //Invoke fetchCandidates
     const fetchCandidates = async () => {
+      //Invoke searchGithub
       const data = await searchGithub();
+      //Invoke setCandidates
       setCandidates(data);
     };
-
+    //Invoke fetchCandidates
     fetchCandidates();
   }, []);
 
+  //Invoke useEffect
   useEffect(() => {
     if (candidates.length > 0) {
+      //Invoke fetchCandidateDetails
       const fetchCandidateDetails = async () => {
+        //Invoke searchGithubUser
         const details = await searchGithubUser(candidates[0].login);
+        //Invoke setCurrentCandidate
         setCurrentCandidate(details);
       };
+      //Invoke fetchCandidateDetails
       fetchCandidateDetails();
     } else {
+      //Invoke setCurrentCandidate
       setCurrentCandidate(null);
     }
   }, [candidates]);
 
+  //Invoke saveCandidate
   const saveCandidate = () => {
     if (currentCandidate) {
+      //Invoke setSavedCandidates
       setSavedCandidates([...savedCandidates, currentCandidate]);
+      //localStorage
       localStorage.setItem('savedCandidates', JSON.stringify([...savedCandidates, currentCandidate]));
     }
+    //Invoke skipCandidate
     skipCandidate();
   };
 
+  //skipCandidate
   const skipCandidate = () => {
+    //Invoke setCandidates
     setCandidates(candidates.slice(1));
   };
 
@@ -69,4 +86,5 @@ const CandidateSearch: React.FC = () => {
   );
 };
 
+//Export CandidateSearch
 export default CandidateSearch;

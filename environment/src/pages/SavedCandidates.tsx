@@ -9,12 +9,14 @@ import { Candidate } from '../interfaces/Candidate.interface'; // Import the Can
 //   );
 // };
 
+//Invoke SavedCandidates
 const SavedCandidates: React.FC = () => {
   const [savedCandidates, setSavedCandidates] = useState<Candidate[]>([]);
-
+  //Invoke useEffect
   useEffect(() => {
     const saved = localStorage.getItem('savedCandidates');
     if (saved) {
+      //Invoke setSavedCandidates
       setSavedCandidates(JSON.parse(saved));
     }
   }, []);
@@ -60,4 +62,5 @@ const SavedCandidates: React.FC = () => {
   );
 };
 
+//Export SavedCandidates
 export default SavedCandidates;

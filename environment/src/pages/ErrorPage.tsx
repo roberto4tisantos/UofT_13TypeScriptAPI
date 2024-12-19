@@ -1,3 +1,4 @@
+//Invoke ErrorPage
 const ErrorPage = () => {
   return (
     <section>
@@ -7,4 +8,5 @@ const ErrorPage = () => {
   );
 };
 
+//Export ErrorPage
 export default ErrorPage;

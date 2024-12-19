@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 
+//Invoke App()
 function App() {
   return (
     <>
@@ -12,4 +13,5 @@ function App() {
   );
 }
 
+//Export App
 export default App;
