@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom';
 //   )
 // };
 
+//Invoke Nav
 const Nav = () => {
   return (
     <nav className="nav">
@@ -32,4 +33,5 @@ const Nav = () => {
   );
 };
 
+//Export Nav
 export default Nav;
