@@ -17,7 +17,17 @@ https://github.com/roberto4tisantos/UofT_13TypeScriptAPI/
 
 https://roberto4tisantos.github.io/UofT_13TypeScriptAPI/
 
+# NETLIFY
+
 https://uoft13typescriptapi.netlify.app/
+
+![image](https://github.com/user-attachments/assets/96046363-4b01-4d24-bde4-d44db2615d8b)
+
+![image](https://github.com/user-attachments/assets/d671ab8d-6df5-46da-81f1-b80739a55147)
+
+![image](https://github.com/user-attachments/assets/75c02d12-f1fb-4f8f-8326-1f2a0d6a485e)
+
+![image](https://github.com/user-attachments/assets/0a8fa5b6-22d4-41d7-b3d2-3d3b889bea24)
 
 # React + TypeScript + Vite
 
